@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI generator</title>
+  </head>
+  <body>
+    <div
+      class="container"
+      style="
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+      "
+    >
+      <h1>BMI generator</h1>
+      <div
+        class="box"
+        style="
+          width: 300px;
+          height: 250px;
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+          border: 1px solid black;
+          padding: 20px;
+          border-radius: 10px;
+          background: gray;
+          align-items: center;
+        "
+      >
+        <input
+          type="text"
+          id="weight"
+          placeholder="weight in kg"
+          style="padding: 10px; border-radius: 5px; border: 1px solid #ccc"
+        />
+        <input
+          type="text"
+          id="height"
+          placeholder="height in cm"
+          style="padding: 10px; border-radius: 5px; border: 1px solid #ccc"
+        />
+        <button
+          id="btn"
+          style="
+            width: 100px;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            background: lightgray;
+          "
+        >
+          calculate
+        </button>
+        <p
+          id="result"
+          style="
+            width: 250px;
+            height: 50px;
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            text-align: center;
+          "
+        ></p>
+      </div>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
