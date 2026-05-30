@@ -4,6 +4,7 @@ const res = document.getElementById("result");
 const min = 1;
 const max = 100;
 let randomNum = Math.floor(Math.random() * (max - min + 1)) + min;
+git;
 btn.addEventListener("click", () => {
   let guess = Number(t.value);
 
